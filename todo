@@ -1,0 +1,13 @@
+
++ command-line applications in ruby
+
++ what makes good command-line apps: principles, the unix way, etc.
+
++ How-to with Ruby 
+  + OptionParser
+  + ARGV, ARGF
+  
+  + Man-pages
+  + Distribute with Rubygem and make standalone (cf. gist)
+  + Aruba, Minitest capture_io
+  + GLI, 
