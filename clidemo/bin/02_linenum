@@ -1,0 +1,17 @@
+#!/usr/bin/env ruby -w
+#vim:ft=ruby
+
+preamble = DATA.read
+
+begin
+  require "linenum"
+rescue LoadError
+  $LOAD_PATH << File.join(File.dirname(__FILE__), *%w[.. lib])
+  retry
+end
+
+Linenum.run(ARGV, preamble)
+
+__END__
+This is just a demo, don't do it at home
+=============================================================

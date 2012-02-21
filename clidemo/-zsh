@@ -1,0 +1,12 @@
+files are a required argument
+
+
+        Usage: 02_linenum [options] files...
+
+        =======
+      
+Common options:
+    -l, --[no]-line                  Don't display the line numbers
+Other options:
+    -h, --help                       Display this message
+    -v, --version                    Show version
