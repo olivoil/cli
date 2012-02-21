@@ -19,6 +19,9 @@ module Linenum
     ARGF.each do |line|
       puts options.linenumbers ? "%3d\t%s" % [ARGF.lineno, line]
                                : "%s" % line
+      if options.first && ARGF.lineno >= options.first
+        exit 0
+      end
     end
   end
 

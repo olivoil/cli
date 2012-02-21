@@ -11,6 +11,7 @@ module Linenum
 
       option_parser = OptionParser.new do |opts|
         opts.banner = """
+          Linenum prints lines from files preceded by a number ^_^
 
           Usage: 02_linenum [options] files...
 
@@ -21,6 +22,10 @@ module Linenum
 
         opts.on("--[no]-line", "-l", "Don't display the line numbers") do |l|
           options.linenumbers = l
+        end
+
+        opts.on("--first n", "-f", Integer, "Only print the first n lines") do |n|
+          options.first = n
         end
 
         opts.separator "Other options:"
