@@ -178,18 +178,18 @@ td + td {
 
 #twitter {
   font-size: 550%;
-  margin-left: -40px;
+  margin-left: -20px;
 }
 #twitter h1 {
-  margin-top: 3em;
+  margin-top: 1em;
 }
 
-/* #website { */
-/*   margin-left: -20px; */
-/* } */
-/* #website h1 { */
-/*   margin-top: 6em; */
-/* } */
+#website {
+  margin-left: -20px;
+}
+#website h1 {
+  margin-top: 6em;
+}
 .step-twitter #olivier-melcher,
 .step-website #olivier-melcher {
   text-shadow: rgba(0,0,0,0.5) -2px 0, rgba(0,0,0,0.3) 0 -2px, rgba(255,255,255,0.5) 0 2px, rgba(0,0,0,0.3) -2px -4px;
@@ -311,12 +311,19 @@ nav.top ol { margin-top: -350px; }
   top: 40px;
 }
 
-#first-class-install,
-#first-class-ui,
-#first-class-fat-lib { width: 1200px; }
-#easy-to-use { width: 1200px; }
+#first-class { width: 1200px; }
+#helpful { width: 1200px; }
 #play-well-with-others { width: 1200px; }
-
+#play-well-with-others ul,
+#helpful ul,
+#first-class ul {
+  width:1000px;
+  height:500px;
+  position:absolute;
+  left:50%;
+  top:50%;
+  margin:-150px 0 0 -500px;
+}
 
 /* STYLES */
 .transparent {
