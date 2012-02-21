@@ -17,11 +17,8 @@ module Linenum
 
     # ARGF concatenates all files given as arguments
     ARGF.each do |line|
-      puts options.linenumbers ? "%3d\t%s" % [ARGF.lineno, line]
-                               : "%s" % line
-      if options.first && ARGF.lineno >= options.first
-        exit 0
-      end
+      puts options.linenumbers ? "%3d\t%s" % [ARGF.lineno, line] : line
+      exit if options.first && ARGF.lineno >= options.first
     end
   end
 

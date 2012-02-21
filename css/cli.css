@@ -216,9 +216,8 @@ td + td {
 }
 
 #why {}
-#talk-motivation h4.ruby {
-  margin-bottom: 25px;
-}
+#talk-motivation h4.ruby { margin-bottom: 25px; }
+#talk-motivation pre { margin-bottom: 25px; }
 #what {}
 #unix {}
 #stdlib { }
@@ -248,6 +247,11 @@ td + td {
 #awesome-means article {
   margin-top: -150px;
 }
+
+li.repo {
+  margin-top: 20px;
+}
+
 nav ol {
   display: block;
   width: 1180px;

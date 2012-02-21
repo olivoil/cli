@@ -28,6 +28,7 @@ module Linenum
           options.first = n
         end
 
+        opts.separator ""
         opts.separator "Other options:"
 
         opts.on_tail("--help", "-h", "Display this message") do
