@@ -2,7 +2,7 @@ require 'linenum/version'
 require 'linenum/option_parser_example'
 
 module Linenum
-  module_function
+  extend self
 
   def run(args = ARGV, preamble = '')
     options = Linenum::OptionParserExample.parse(args)
