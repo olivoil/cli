@@ -219,9 +219,8 @@ td + td {
 #talk-motivation h4.ruby { margin-bottom: 25px; }
 #talk-motivation pre { margin-bottom: 25px; }
 #what {}
-#unix {}
+#core {}
 #stdlib { }
-#stdlib {  }
 #gems { }
 
 .step-talk-motivation .step.counter:not(.active),
@@ -230,8 +229,8 @@ td + td {
 .step-gems .step.counter:not(.active),
 .step-stdlib .step.objection:not(.active),
 .step-stdlib .step.objection:not(.active),
-.step-unix .step.counter:not(.active),
-.step-unix .step.objection:not(.active) { opacity: 0.01; }
+.step-core .step.counter:not(.active),
+.step-core .step.objection:not(.active) { opacity: 0.01; }
 
 #whats-a-cli-app { width: 1200px; }
 .step-whats-a-cli-app #what-makes-it-awesome { opacity: 0; }
